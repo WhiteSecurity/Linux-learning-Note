@@ -7,3 +7,9 @@ start_seconds=$(date --date="$starttime" +%s);
 end_seconds=$(date --date="$endtime" +%s);
 
 echo "本次运行时间： "$((end_seconds-start_seconds))"s"
+
+2> 
+   无法找到error while loading shared libraries
+   
+   解决方法：export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+port 
